@@ -58,16 +58,7 @@ com.stackly
 
 ## 🛠️ Setup & Installation
 
-### 🔹 1. Clone Repository
-
-```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd HRMSCompleteBackendSystem
-```
-
----
-
-### 🔹 2. Configure Database
+### 🔹 1. Configure Database
 
 Update `application.properties`:
 
@@ -83,7 +74,7 @@ spring.jpa.properties.hibernate.format_sql=true
 
 ---
 
-### 🔹 3. Run Application
+### 🔹 2. Run Application
 
 ```bash
 mvn clean install
@@ -152,16 +143,3 @@ Use Postman to test APIs:
 ```
 http://localhost:8080
 ```
-
----
-
-## 🚀 Future Enhancements
-
-* ✅ JWT Authentication & Authorization
-* ✅ Role-based Access Control (Admin / Employee)
-* ✅ DTO Layer Implementation
-* ✅ Global Exception Handling
-* ✅ Swagger API Documentation
-* ✅ Pagination & Filtering
----
-
